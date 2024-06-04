@@ -41,7 +41,7 @@ class Build : NukeBuild
             
             // Files are published to a directory called output
             // we need to delete the existing folder and create a new one and
-            // publish files to it
+            // publish files to the output folder
             if(Directory.Exists(OutputDirectory)) 
                 Directory.Delete(OutputDirectory,true);
             
