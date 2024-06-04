@@ -59,3 +59,4 @@ D:\Nuke\NukeBuildLearn\BuildUsingNuke\obj\Debug\refint\NukeBuildLearn.dll
 D:\Nuke\NukeBuildLearn\BuildUsingNuke\obj\Debug\NukeBuildLearn.pdb
 D:\Nuke\NukeBuildLearn\BuildUsingNuke\obj\Debug\NukeBuildLearn.genruntimeconfig.cache
 D:\Nuke\NukeBuildLearn\BuildUsingNuke\obj\Debug\ref\NukeBuildLearn.dll
+D:\Nuke\NukeBuildLearn\BuildUsingNuke\obj\Debug\NukeBuildLearn.sourcelink.json

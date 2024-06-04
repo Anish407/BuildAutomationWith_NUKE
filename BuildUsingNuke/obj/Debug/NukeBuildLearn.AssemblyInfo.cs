@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NukeBuildLearn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2132b4c962429c0de5660405007805155efcf849")]
 [assembly: System.Reflection.AssemblyProductAttribute("NukeBuildLearn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NukeBuildLearn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

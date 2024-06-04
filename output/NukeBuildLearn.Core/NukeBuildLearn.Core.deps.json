@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NukeBuildLearn.Core/1.0.0": {
+        "runtime": {
+          "NukeBuildLearn.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NukeBuildLearn.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

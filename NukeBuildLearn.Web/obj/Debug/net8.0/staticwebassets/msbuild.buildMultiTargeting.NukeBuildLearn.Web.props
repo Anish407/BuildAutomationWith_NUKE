@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\NukeBuildLearn.Web.props" />
-</Project>

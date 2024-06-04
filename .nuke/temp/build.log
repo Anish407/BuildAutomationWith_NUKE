@@ -1,90 +1,183 @@
-23:28:41.305 | V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
-23:28:41.364 | V |                      | Passing value for <unresolved> (NukeBuildLearn.sln)
-23:28:41.385 | V |                      | HandleReSharperSurrogateArguments.OnBuildCreated (150)
-23:28:41.386 | V |                      | InjectParameterValues.OnBuildCreated (100)
-23:28:41.393 | V |                      | HandleShellCompletion.OnBuildCreated (75)
-23:28:41.676 | V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
-23:28:41.676 | V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
-23:28:41.721 | V |                      | UpdateNotification.OnBuildCreated (10)
-23:28:41.722 | V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
-23:28:41.733 | V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
-23:28:41.744 | V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
-23:28:41.782 | V |                      | HandlePlanRequests.OnBuildInitialized (10)
-23:28:41.782 | V |                      | HandleHelpRequests.OnBuildInitialized (5)
-23:28:41.782 | V |                      | Telemetry.OnBuildInitialized (0)
-23:28:42.728 | V |                      | Sending BuildStarted telemetry event ...
-23:28:42.730 | V |                      |   build_components         = 
-23:28:42.730 | V |                      |   build_type               = Project
-23:28:42.730 | V |                      |   compile_time             = <null>
-23:28:42.730 | V |                      |   config_generators        = 
-23:28:42.730 | V |                      |   host                     = Rider
-23:28:42.730 | V |                      |   num_custom_components    = 0
-23:28:42.730 | V |                      |   num_custom_extensions    = 0
-23:28:42.730 | V |                      |   num_partitioned_targets  = 0
-23:28:42.730 | V |                      |   num_secrets              = 0
-23:28:42.730 | V |                      |   num_targets              = 3
-23:28:42.730 | V |                      |   os_architecture          = X64
-23:28:42.730 | V |                      |   os_platform              = Windows
-23:28:42.730 | V |                      |   target_framework         = .NETCoreApp,Version=v8.0
-23:28:42.730 | V |                      |   version_dotnet_sdk       = 8.0.301
-23:28:42.730 | V |                      |   version_nuke_common      = 8.0.0
-23:28:42.730 | V |                      |   version_nuke_global_tool = <null>
-23:28:43.173 | V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
-23:28:43.174 | V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
-23:28:43.213 | V | Clean                | EventInvoker.OnTargetRunning (-3.4028235E+38)
-23:28:47.441 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\NukeBuildLearn.Webin and D:\Nuke\NukeBuildLearn\NukeBuildLearn.Corein
-23:28:51.701 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\NukeBuildLearn.Web\Sample
-23:28:56.580 | V | Clean                | Telemetry.OnTargetSucceeded (0)
-23:28:56.581 | V | Clean                | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
-23:28:56.585 | V | Restore              | EventInvoker.OnTargetRunning (-3.4028235E+38)
-23:28:56.586 | V | Restore              | Telemetry.OnTargetSucceeded (0)
-23:28:56.805 | V | Restore              | Sending TargetSucceeded telemetry event ...
-23:28:56.805 | V | Restore              |   build_components         = 
-23:28:56.805 | V | Restore              |   build_type               = Project
-23:28:56.805 | V | Restore              |   compile_time             = <null>
-23:28:56.805 | V | Restore              |   config_generators        = 
-23:28:56.805 | V | Restore              |   host                     = Rider
-23:28:56.805 | V | Restore              |   num_custom_components    = 0
-23:28:56.805 | V | Restore              |   num_custom_extensions    = 0
-23:28:56.805 | V | Restore              |   num_partitioned_targets  = 0
-23:28:56.805 | V | Restore              |   num_secrets              = 0
-23:28:56.805 | V | Restore              |   num_targets              = 3
-23:28:56.805 | V | Restore              |   os_architecture          = X64
-23:28:56.805 | V | Restore              |   os_platform              = Windows
-23:28:56.805 | V | Restore              |   target_current_partition = 1
-23:28:56.805 | V | Restore              |   target_duration          = 0
-23:28:56.805 | V | Restore              |   target_framework         = .NETCoreApp,Version=v8.0
-23:28:56.805 | V | Restore              |   target_name              = Restore
-23:28:56.805 | V | Restore              |   target_total_partitions  = 1
-23:28:56.805 | V | Restore              |   version_dotnet_sdk       = 8.0.301
-23:28:56.805 | V | Restore              |   version_nuke_common      = 8.0.0
-23:28:56.805 | V | Restore              |   version_nuke_global_tool = <null>
-23:28:56.858 | V | Restore              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
-23:28:56.862 | V | Compile              | EventInvoker.OnTargetRunning (-3.4028235E+38)
-23:28:56.863 | I | Compile              | Starting To Compile: ConfigurationDebug
-23:28:56.863 | V | Compile              | Telemetry.OnTargetSucceeded (0)
-23:28:57.070 | V | Compile              | Sending TargetSucceeded telemetry event ...
-23:28:57.070 | V | Compile              |   build_components         = 
-23:28:57.070 | V | Compile              |   build_type               = Project
-23:28:57.070 | V | Compile              |   compile_time             = <null>
-23:28:57.070 | V | Compile              |   config_generators        = 
-23:28:57.070 | V | Compile              |   host                     = Rider
-23:28:57.070 | V | Compile              |   num_custom_components    = 0
-23:28:57.070 | V | Compile              |   num_custom_extensions    = 0
-23:28:57.070 | V | Compile              |   num_partitioned_targets  = 0
-23:28:57.070 | V | Compile              |   num_secrets              = 0
-23:28:57.070 | V | Compile              |   num_targets              = 3
-23:28:57.070 | V | Compile              |   os_architecture          = X64
-23:28:57.070 | V | Compile              |   os_platform              = Windows
-23:28:57.070 | V | Compile              |   target_current_partition = 1
-23:28:57.070 | V | Compile              |   target_duration          = 0
-23:28:57.070 | V | Compile              |   target_framework         = .NETCoreApp,Version=v8.0
-23:28:57.070 | V | Compile              |   target_name              = Compile
-23:28:57.070 | V | Compile              |   target_total_partitions  = 1
-23:28:57.070 | V | Compile              |   version_dotnet_sdk       = 8.0.301
-23:28:57.070 | V | Compile              |   version_nuke_common      = 8.0.0
-23:28:57.070 | V | Compile              |   version_nuke_global_tool = <null>
-23:28:57.123 | V | Compile              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
-23:28:57.155 | V |                      | UpdateNotification.OnBuildFinished (10)
-23:28:57.155 | V |                      | SerializeBuildServerState.OnBuildFinished (0)
-23:28:57.155 | V |                      | EventInvoker.OnBuildFinished (-3.4028235E+38)
+22:35:31.493 | V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+22:35:31.558 | V |                      | Passing value for Build.Solution (../../../NukeBuildLearn.sln)
+22:35:31.572 | V |                      | HandleReSharperSurrogateArguments.OnBuildCreated (150)
+22:35:31.573 | V |                      | InjectParameterValues.OnBuildCreated (100)
+22:35:31.583 | V |                      | HandleShellCompletion.OnBuildCreated (75)
+22:35:31.715 | V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+22:35:31.716 | V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+22:35:31.728 | V |                      | UpdateNotification.OnBuildCreated (10)
+22:35:31.729 | V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+22:35:31.740 | V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+22:35:31.741 | V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+22:35:31.797 | V |                      | HandlePlanRequests.OnBuildInitialized (10)
+22:35:31.797 | V |                      | HandleHelpRequests.OnBuildInitialized (5)
+22:35:31.798 | V |                      | Telemetry.OnBuildInitialized (0)
+22:35:32.543 | V |                      | Sending BuildStarted telemetry event ...
+22:35:32.545 | V |                      |   build_components         = 
+22:35:32.545 | V |                      |   build_type               = Project
+22:35:32.545 | V |                      |   compile_time             = <null>
+22:35:32.545 | V |                      |   config_generators        = 
+22:35:32.545 | V |                      |   host                     = Rider
+22:35:32.545 | V |                      |   num_custom_components    = 0
+22:35:32.545 | V |                      |   num_custom_extensions    = 0
+22:35:32.545 | V |                      |   num_partitioned_targets  = 0
+22:35:32.545 | V |                      |   num_secrets              = 0
+22:35:32.545 | V |                      |   num_targets              = 5
+22:35:32.545 | V |                      |   os_architecture          = X64
+22:35:32.545 | V |                      |   os_platform              = Windows
+22:35:32.545 | V |                      |   repo_branch              = main
+22:35:32.545 | V |                      |   repo_commit              = a9b330
+22:35:32.545 | V |                      |   repo_provider            = GitHub
+22:35:32.545 | V |                      |   repo_url                 = 379261
+22:35:32.545 | V |                      |   target_framework         = .NETCoreApp,Version=v8.0
+22:35:32.545 | V |                      |   version_dotnet_sdk       = 8.0.301
+22:35:32.545 | V |                      |   version_nuke_common      = 8.0.0
+22:35:32.545 | V |                      |   version_nuke_global_tool = <null>
+22:35:32.806 | V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+22:35:32.837 | V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+22:35:32.853 | V | Clean                | EventInvoker.OnTargetRunning (-3.4028235E+38)
+22:35:32.854 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Webin and D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Corein
+22:35:32.868 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Core\bin
+22:35:32.871 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Web\bin
+22:35:32.878 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Core\obj
+22:35:32.886 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Web\obj
+22:35:32.901 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.IntegrationTest\bin
+22:35:32.924 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.UnitTest\bin
+22:35:32.951 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.IntegrationTest\obj
+22:35:32.962 | I | Clean                | Starting To Clean: Removing:D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.UnitTest\obj
+22:35:33.083 | V | Clean                | Telemetry.OnTargetSucceeded (0)
+22:35:33.084 | V | Clean                | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+22:35:33.089 | V | Restore              | EventInvoker.OnTargetRunning (-3.4028235E+38)
+22:35:33.199 | I | Restore              | > "C:\Program Files\dotnet\dotnet.exe" restore D:\Nuke\NukeBuildLearn\NukeBuildLearn.sln
+22:35:33.202 | V | Restore              | @ D:\Nuke\NukeBuildLearn\BuildUsingNuke\bin\Debug
+22:35:34.111 | D | Restore              |   Determining projects to restore...
+22:35:34.640 | D | Restore              |   Restored D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Core\NukeBuildLearn.Core.csproj (in 132 ms).
+22:35:34.997 | D | Restore              |   Restored D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Web\NukeBuildLearn.Web.csproj (in 516 ms).
+22:35:35.008 | D | Restore              |   Restored D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.IntegrationTest\NukeBuildLearn.IntegrationTest.csproj (in 544 ms).
+22:35:35.152 | D | Restore              |   Restored D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.UnitTest\NukeBuildLearn.UnitTest.csproj (in 683 ms).
+22:35:35.205 | V | Restore              | Telemetry.OnTargetSucceeded (0)
+22:35:35.367 | V | Restore              | Sending TargetSucceeded telemetry event ...
+22:35:35.367 | V | Restore              |   build_components         = 
+22:35:35.367 | V | Restore              |   build_type               = Project
+22:35:35.367 | V | Restore              |   compile_time             = <null>
+22:35:35.367 | V | Restore              |   config_generators        = 
+22:35:35.367 | V | Restore              |   host                     = Rider
+22:35:35.367 | V | Restore              |   num_custom_components    = 0
+22:35:35.367 | V | Restore              |   num_custom_extensions    = 0
+22:35:35.367 | V | Restore              |   num_partitioned_targets  = 0
+22:35:35.367 | V | Restore              |   num_secrets              = 0
+22:35:35.367 | V | Restore              |   num_targets              = 5
+22:35:35.367 | V | Restore              |   os_architecture          = X64
+22:35:35.367 | V | Restore              |   os_platform              = Windows
+22:35:35.367 | V | Restore              |   repo_branch              = main
+22:35:35.367 | V | Restore              |   repo_commit              = a9b330
+22:35:35.368 | V | Restore              |   repo_provider            = GitHub
+22:35:35.368 | V | Restore              |   repo_url                 = 379261
+22:35:35.368 | V | Restore              |   target_current_partition = 1
+22:35:35.368 | V | Restore              |   target_duration          = 2
+22:35:35.368 | V | Restore              |   target_framework         = .NETCoreApp,Version=v8.0
+22:35:35.368 | V | Restore              |   target_name              = Restore
+22:35:35.368 | V | Restore              |   target_total_partitions  = 1
+22:35:35.368 | V | Restore              |   version_dotnet_sdk       = 8.0.301
+22:35:35.368 | V | Restore              |   version_nuke_common      = 8.0.0
+22:35:35.368 | V | Restore              |   version_nuke_global_tool = <null>
+22:35:35.411 | V | Restore              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+22:35:35.425 | V | Compile              | EventInvoker.OnTargetRunning (-3.4028235E+38)
+22:35:35.426 | I | Compile              | Starting To Compile: ConfigurationDebug
+22:35:35.512 | I | Compile              | > "C:\Program Files\dotnet\dotnet.exe" build D:\Nuke\NukeBuildLearn\NukeBuildLearn.sln --configuration Debug --no-restore
+22:35:35.514 | V | Compile              | @ D:\Nuke\NukeBuildLearn\BuildUsingNuke\bin\Debug
+22:35:36.336 | D | Compile              |   NukeBuildLearn.Core -> D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Core\bin\Debug\net8.0\NukeBuildLearn.Core.dll
+22:35:36.479 | D | Compile              |   NukeBuildLearn.UnitTest -> D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.UnitTest\bin\Debug\net8.0\NukeBuildLearn.UnitTest.dll
+22:35:36.498 | D | Compile              |   NukeBuildLearn.IntegrationTest -> D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.IntegrationTest\bin\Debug\net8.0\NukeBuildLearn.IntegrationTest.dll
+22:35:37.745 | D | Compile              |   NukeBuildLearn.Web -> D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Web\bin\Debug\net8.0\NukeBuildLearn.Web.dll
+22:35:37.775 | D | Compile              | 
+22:35:37.778 | D | Compile              | Build succeeded.
+22:35:37.779 | D | Compile              |     0 Warning(s)
+22:35:37.804 | D | Compile              |     0 Error(s)
+22:35:37.805 | D | Compile              | 
+22:35:37.805 | D | Compile              | Time Elapsed 00:00:01.99
+22:35:37.840 | V | Compile              | Telemetry.OnTargetSucceeded (0)
+22:35:38.076 | V | Compile              | Sending TargetSucceeded telemetry event ...
+22:35:38.076 | V | Compile              |   build_components         = 
+22:35:38.076 | V | Compile              |   build_type               = Project
+22:35:38.076 | V | Compile              |   compile_time             = <null>
+22:35:38.076 | V | Compile              |   config_generators        = 
+22:35:38.076 | V | Compile              |   host                     = Rider
+22:35:38.076 | V | Compile              |   num_custom_components    = 0
+22:35:38.077 | V | Compile              |   num_custom_extensions    = 0
+22:35:38.077 | V | Compile              |   num_partitioned_targets  = 0
+22:35:38.077 | V | Compile              |   num_secrets              = 0
+22:35:38.077 | V | Compile              |   num_targets              = 5
+22:35:38.077 | V | Compile              |   os_architecture          = X64
+22:35:38.077 | V | Compile              |   os_platform              = Windows
+22:35:38.077 | V | Compile              |   repo_branch              = main
+22:35:38.077 | V | Compile              |   repo_commit              = a9b330
+22:35:38.077 | V | Compile              |   repo_provider            = GitHub
+22:35:38.077 | V | Compile              |   repo_url                 = 379261
+22:35:38.077 | V | Compile              |   target_current_partition = 1
+22:35:38.077 | V | Compile              |   target_duration          = 2
+22:35:38.077 | V | Compile              |   target_framework         = .NETCoreApp,Version=v8.0
+22:35:38.077 | V | Compile              |   target_name              = Compile
+22:35:38.077 | V | Compile              |   target_total_partitions  = 1
+22:35:38.077 | V | Compile              |   version_dotnet_sdk       = 8.0.301
+22:35:38.077 | V | Compile              |   version_nuke_common      = 8.0.0
+22:35:38.077 | V | Compile              |   version_nuke_global_tool = <null>
+22:35:38.111 | V | Compile              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+22:35:38.125 | V | Test                 | EventInvoker.OnTargetRunning (-3.4028235E+38)
+22:35:38.213 | I | Test                 | > "C:\Program Files\dotnet\dotnet.exe" test D:\Nuke\NukeBuildLearn\NukeBuildLearn.sln --configuration Debug --no-build --no-restore
+22:35:38.218 | V | Test                 | @ D:\Nuke\NukeBuildLearn\BuildUsingNuke\bin\Debug
+22:35:39.446 | D | Test                 | Test run for D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.UnitTest\bin\Debug\net8.0\NukeBuildLearn.UnitTest.dll (.NETCoreApp,Version=v8.0)
+22:35:39.447 | D | Test                 | Test run for D:\Nuke\NukeBuildLearn\Tests\NukeBuildLearn.IntegrationTest\bin\Debug\net8.0\NukeBuildLearn.IntegrationTest.dll (.NETCoreApp,Version=v8.0)
+22:35:39.553 | D | Test                 | Microsoft (R) Test Execution Command Line Tool Version 17.10.0 (x64)
+22:35:39.555 | D | Test                 | Copyright (c) Microsoft Corporation.  All rights reserved.
+22:35:39.556 | D | Test                 | Microsoft (R) Test Execution Command Line Tool Version 17.10.0 (x64)
+22:35:39.557 | D | Test                 | Copyright (c) Microsoft Corporation.  All rights reserved.
+22:35:39.558 | D | Test                 | 
+22:35:39.560 | D | Test                 | 
+22:35:39.679 | D | Test                 | Starting test execution, please wait...
+22:35:39.682 | D | Test                 | Starting test execution, please wait...
+22:35:39.713 | D | Test                 | A total of 1 test files matched the specified pattern.
+22:35:39.717 | D | Test                 | A total of 1 test files matched the specified pattern.
+22:35:41.613 | D | Test                 | 
+22:35:41.620 | D | Test                 | Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - NukeBuildLearn.UnitTest.dll (net8.0)
+22:35:41.838 | D | Test                 | 
+22:35:41.845 | D | Test                 | Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 50 ms - NukeBuildLearn.IntegrationTest.dll (net8.0)
+22:35:42.032 | V | Test                 | Telemetry.OnTargetSucceeded (0)
+22:35:42.248 | V | Test                 | Sending TargetSucceeded telemetry event ...
+22:35:42.249 | V | Test                 |   build_components         = 
+22:35:42.249 | V | Test                 |   build_type               = Project
+22:35:42.249 | V | Test                 |   compile_time             = <null>
+22:35:42.249 | V | Test                 |   config_generators        = 
+22:35:42.249 | V | Test                 |   host                     = Rider
+22:35:42.249 | V | Test                 |   num_custom_components    = 0
+22:35:42.249 | V | Test                 |   num_custom_extensions    = 0
+22:35:42.249 | V | Test                 |   num_partitioned_targets  = 0
+22:35:42.249 | V | Test                 |   num_secrets              = 0
+22:35:42.249 | V | Test                 |   num_targets              = 5
+22:35:42.249 | V | Test                 |   os_architecture          = X64
+22:35:42.249 | V | Test                 |   os_platform              = Windows
+22:35:42.249 | V | Test                 |   repo_branch              = main
+22:35:42.249 | V | Test                 |   repo_commit              = a9b330
+22:35:42.249 | V | Test                 |   repo_provider            = GitHub
+22:35:42.249 | V | Test                 |   repo_url                 = 379261
+22:35:42.249 | V | Test                 |   target_current_partition = 1
+22:35:42.249 | V | Test                 |   target_duration          = 4
+22:35:42.249 | V | Test                 |   target_framework         = .NETCoreApp,Version=v8.0
+22:35:42.249 | V | Test                 |   target_name              = Test
+22:35:42.249 | V | Test                 |   target_total_partitions  = 1
+22:35:42.249 | V | Test                 |   version_dotnet_sdk       = 8.0.301
+22:35:42.249 | V | Test                 |   version_nuke_common      = 8.0.0
+22:35:42.249 | V | Test                 |   version_nuke_global_tool = <null>
+22:35:42.281 | V | Test                 | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+22:35:42.289 | V | Publish              | EventInvoker.OnTargetRunning (-3.4028235E+38)
+22:35:42.374 | I | Publish              | > "C:\Program Files\dotnet\dotnet.exe" publish D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Web\NukeBuildLearn.Web.csproj --configuration Debug --no-build --output D:\Nuke\NukeBuildLearn\output\NukeBuildLearn.Web --self-contained False
+22:35:42.375 | V | Publish              | @ D:\Nuke\NukeBuildLearn\BuildUsingNuke\bin\Debug
+22:35:43.635 | D | Publish              |   NukeBuildLearn.Web -> D:\Nuke\NukeBuildLearn\output\NukeBuildLearn.Web\
+22:35:43.788 | I | Publish              | > "C:\Program Files\dotnet\dotnet.exe" publish D:\Nuke\NukeBuildLearn\src\NukeBuildLearn.Core\NukeBuildLearn.Core.csproj --configuration Debug --no-build --output D:\Nuke\NukeBuildLearn\output\NukeBuildLearn.Core --self-contained False
+22:35:43.789 | V | Publish              | @ D:\Nuke\NukeBuildLearn\BuildUsingNuke\bin\Debug
+22:35:44.757 | D | Publish              |   NukeBuildLearn.Core -> D:\Nuke\NukeBuildLearn\output\NukeBuildLearn.Core\
+22:35:44.838 | V | Publish              | Telemetry.OnTargetSucceeded (0)
+22:35:44.839 | V | Publish              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+22:35:44.853 | V |                      | UpdateNotification.OnBuildFinished (10)
+22:35:44.853 | V |                      | SerializeBuildServerState.OnBuildFinished (0)
+22:35:44.853 | V |                      | EventInvoker.OnBuildFinished (-3.4028235E+38)
